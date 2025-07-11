@@ -5,14 +5,16 @@ For design files and description look in: https://www.figma.com/file/aGUvPYzb6Dy
 
 ## Getting started
 
-1. Install the .NET SDK 8.0.201 or newer from https://dotnet.microsoft.com/en-us/download/dotnet/8.0 or from homebrew with `brew install dotnet-sdk`
-2. Install the two workloads `ios` and `android`: `sudo dotnet workload install ios android`
+1. Install the .NET SDK 9.0.300 or newer from https://dotnet.microsoft.com/en-us/download/dotnet/9.0
+2. Install the two workloads `ios` and `android`: `sudo dotnet workload install ios android --version 9.0.300`
 3. Other dependencies required:
   - For Android:
     - Make sure to have Java SDK 17 installed or newer and `JAVA_HOME` env variable set. Could look like: `/Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home`
     - Make sure to have the Android SDK installed with API 34 SDK installed
   - For iOS:
-    - Make sure to have Xcode 15.2 or newer installed
+    - Make sure to have Xcode 16.4 or newer installed
+
+You can use either JetBrains Rider or VS Code to run and edit the code. If you use VS Code, install the suggested extensions when you open this folder.
 
 ## Baseline App
 
