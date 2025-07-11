@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="TextAppearance.Golf.LatoBold16" parent="">
+    <item name="android:fontFamily">@font/lato</item>
+    <item name="android:fontWeight">700</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/almost_black</item>
+  </style>
+
+  <style name="TextAppearance.Golf.RegularLatoGrey14" parent="">
+    <item name="android:fontFamily">@font/lato</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/secondarygray</item>
+  </style>
+</resources>
